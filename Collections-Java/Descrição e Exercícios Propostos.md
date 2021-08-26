@@ -31,6 +31,23 @@
 
 ##### Tabela do site [geeksforgeeks](https://www.geeksforgeeks.org/arraylist-vs-linkedlist-java/)    
 
+## java.util.Set
+
+* Não permite elementos duplicados
+* Não possui índice
+
+![LinkedHashSet vs. HashSet](https://miro.medium.com/max/2400/1*M7VN_nvDtdYdmAaWa-4LXg.png)
+
+##### Fonte: [KrishnaBankar](https://krishnabankar.medium.com/java-collection-framework-fdd34a2b6a62)
+
+![LinkedHashhSet vs. TreeSet](https://miro.medium.com/max/700/1*UrlceaxOhjoIl-7PMVDvvw.png)
+
+##### Fonte: [KrishnaBankar](https://krishnabankar.medium.com/java-collection-framework-fdd34a2b6a62)
+
+![Set Table](https://miro.medium.com/max/700/1*Kgnvw-yDGGqYGoKANLV8yQ.png)
+
+##### Fonte: [KrishnaBankar](https://krishnabankar.medium.com/java-collection-framework-fdd34a2b6a62)
+
 ## Exercícios Propostos para conteúdo de List
 ### 1. Faça um programa que receba a temperatura média dos 6 primeiros meses do ano e armazene-as em uma lista. Após isto, calcule a média semestral das temperaturas e mostre todas as temperaturas acima desta média, e em que mês elas ocorreram (mostrar o mês por extenso: 1 - Janeiro. 2 - Fevereiro).
 ### 2. Utilizando listas, Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:

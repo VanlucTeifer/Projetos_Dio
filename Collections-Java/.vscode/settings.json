@@ -1,5 +1,6 @@
 {
   "java.project.sourcePaths": [
-    "exemplo-list\\src"
+    "exemplo-list/src",
+    "exemplo-set/src"
   ]
 }

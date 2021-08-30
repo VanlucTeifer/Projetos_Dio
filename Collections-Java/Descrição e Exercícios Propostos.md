@@ -48,6 +48,11 @@
 
 ##### Fonte: [KrishnaBankar](https://krishnabankar.medium.com/java-collection-framework-fdd34a2b6a62)
 
+## java.util.Map
+
+* Elementos únicos (key) para cada valor (value)
+![HashMap vs. LinkedHashMap vs. TreeMap](exemplo-map/lib/Imagem1.jpg)
+
 ## Exercícios Propostos para conteúdo de List
 
 ### 1. Faça um programa que receba a temperatura média dos 6 primeiros meses do ano e armazene-as em uma lista. Após isto, calcule a média semestral das temperaturas e mostre todas as temperaturas acima desta média, e em que mês elas ocorreram (mostrar o mês por extenso: 1 - Janeiro. 2 - Fevereiro).

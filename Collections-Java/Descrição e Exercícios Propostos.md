@@ -15,6 +15,8 @@
 
 ![Collections Hierarchy](https://lh3.googleusercontent.com/go5HHj8ARulogiaCY3qYerASYBTB8fWGWFPf0YyFIy0dq_fJtc3HNsDnTcu_196F91xFVXKwfNxrlJ5EUwMHShZ3ml6fXfdSUVNsc61_aEd_wKQ2PvmvJ0Y5pRcAciAiUTjNniMGSw=w2400)
 
+---
+
 ## java.util.List
 
 * Elementos duplicados e garante ordem de inserção.
@@ -27,9 +29,10 @@
 | Manipulating ArrayList takes more time due to the internal implementation. Whenever we remove an element, internally, the array is traversed and the memory bits are shifted. | Manipulating LinkedList takes less time compared to ArrayList because, in a doubly-linked list, there is no concept of shifting the memory bits. The list is traversed and the reference link is changed. |
 | This class implements a [List interface](https://www.geeksforgeeks.org/list-interface-java-examples/). Therefore, this acts as a list. | This class implements both the [List interface](https://www.geeksforgeeks.org/list-interface-java-examples/) and the [Deque interface](https://www.geeksforgeeks.org/deque-interface-java-example/). Therefore, it can act as a list and a deque. |
 | This class works better when the application demands storing the data and accessing it. | This class works better when the application demands manipulation of the stored data. |
----
 
 ##### Tabela do site [geeksforgeeks](https://www.geeksforgeeks.org/arraylist-vs-linkedlist-java/)    
+
+---
 
 ## java.util.Set
 
@@ -48,16 +51,48 @@
 
 ##### Fonte: [KrishnaBankar](https://krishnabankar.medium.com/java-collection-framework-fdd34a2b6a62)
 
+---
+
 ## java.util.Map
 
 * Elementos únicos (key) para cada valor (value)
 ![HashMap vs. LinkedHashMap vs. TreeMap](exemplo-map/lib/Imagem1.jpg)
 
+---
+
+## java.util.Stream
+
+### Reference Method
+* #### Reference Method é um novo recurso do Java 8 que permite fazer referência a um método ou construtor de uma classe (de forma funcional) e assim indicar que ele deve ser utilizado num ponto específico do código, deixando-o mais simples e legível. Para utilizá-lo, basta informar uma classe ou referência seguida do simbolo "::" e o nome do método sem parênteses no final. Resumindo, serve para simplificar uma expressão Lambda.
+
+### Streams API
+
+* #### A Streams API traz uma nova opção para a manipulação de coleções em Java seguindo os princípios da programação funcional. Combinada com as expressões Lambda, ela proporciona uma forma diferente de lidar com conjuntos de elementos, oferecendo ao desenvolvedor uma maneira simples e concisa de escrever código que resulta em facilidade de manutenção e paralelização sem efeitos indesejados e tempos de execução.
+
+### Classe Anônima
+
+* #### A classe anônima em Java é uma classe que não recebeu um nome e é tatno declarado ou instanciado em uma única instrução. Você deve considerar o uso de uma classe anônima sempre que você precisa para criar uma classe que será instanciada apenas uma vez.
+
+### Functional Inteface
+
+* #### Qualquer interface com um SAM (Single Abstract Method) é uma interface e sua implementação pode ser tratada como expressão Lambda. São elas:
+  * #### Comparator;
+  * #### Consumer;
+  * #### Function;
+  * #### Predicate;
+
+### Lambda
+ 
+* #### Uma função Lambda é uma função sem declaração, isto é, não é necessário colocar um nome, um tipo de retorno, e o modificador de acesso. A ideia é que o método seja declarado no mesmo lugar em que será usado. As funções Lambda em Java tem sintaxe definida como (argumento) -> (corpo).
+
+---
+
+
 ## Exercícios Propostos para conteúdo de List
 
 ### 1. Faça um programa que receba a temperatura média dos 6 primeiros meses do ano e armazene-as em uma lista. Após isto, calcule a média semestral das temperaturas e mostre todas as temperaturas acima desta média, e em que mês elas ocorreram (mostrar o mês por extenso: 1 - Janeiro. 2 - Fevereiro).
 
-### 2. Utilizando listas, Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
+### 2. Utilizando listas, faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
 
   1. "Telefonou para a vítima?"
   2. "Esteve no local do crime?"
@@ -66,6 +101,8 @@
   5. "Já trabalhou com a vítima?"
 
 ### Se a pessoa responder positivamente a 2 questões, ela deve ser considerada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 "Assassina". Caso contrário, ela será classificada como "Inocente".
+
+---
 
 ## Exercícios Propostos para conteúdo de Set
 
@@ -89,6 +126,8 @@
 5. nome, ano de criação e ide.
 
 ### Ao final, exiba as linguagens no console, uma abaixo da outra
+
+---
 
 ## Exercícios propostos para conteúdo de Map
 

@@ -26,6 +26,11 @@ public class ExercicioPropostoSet2 {
     Set<LinguagensProgramacao> linguagens5 = new TreeSet<>(new CompareNomeAnoIde());
     linguagens5.addAll(linguagens);
     System.out.println(linguagens5);// Questão 5
+
+    for(LinguagensProgramacao linguagem : linguagens) // Imprime todas uma abaixo da outra
+    System.out.println("Nome: " + linguagem.getNome() + " - " + 
+                       "Ano: " + linguagem.getAno() + " - " + 
+                       "IDE: " + linguagem.getIde());
   }
 }
 

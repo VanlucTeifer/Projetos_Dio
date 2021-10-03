@@ -2,6 +2,8 @@
   "java.project.sourcePaths": [
     "exemplo-list/src",
     "exemplo-set/src",
-    "exemplo-map\\src"
+    "exemplo-map\\src",
+    "exemplo-stream\\src",
+    "exercicios-propostos-collections\\src"
   ]
 }

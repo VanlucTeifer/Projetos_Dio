@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Collections-Java.iml" filepath="$PROJECT_DIR$/.idea/Collections-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exemplo-list/exemplo-list.iml" filepath="$PROJECT_DIR$/exemplo-list/exemplo-list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exemplo-map/exemplo-map.iml" filepath="$PROJECT_DIR$/exemplo-map/exemplo-map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exemplo-set/exemplo-set.iml" filepath="$PROJECT_DIR$/exemplo-set/exemplo-set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exemplo-stream/exemplo-stream.iml" filepath="$PROJECT_DIR$/exemplo-stream/exemplo-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicios-propostos-collections/exercicios-propostos-collections.iml" filepath="$PROJECT_DIR$/exercicios-propostos-collections/exercicios-propostos-collections.iml" />
+    </modules>
+  </component>
+</project>

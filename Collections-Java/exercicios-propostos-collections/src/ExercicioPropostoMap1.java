@@ -1,7 +1,4 @@
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class ExercicioPropostoMap1 {
   public static void main(String[] args) {
@@ -16,7 +13,7 @@ public class ExercicioPropostoMap1 {
     estados.put("RN", 3354165);// Questão 1
     System.out.println(estados);
 
-    if(estados.containsKey("PB") == false){// Questão 2
+    if(!estados.containsKey("PB")){// Questão 2
       estados.put("PB", 4039277);
     }
     System.out.println(estados);
@@ -29,7 +26,25 @@ public class ExercicioPropostoMap1 {
     System.out.println(estadosAlfabetica);// Questão 5
 
     Integer menorPopulacao = Collections.min(estados.values());
-    System.out.println(menorPopulacao);
+    System.out.println(menorPopulacao);// Questão 6
+    
+    Integer maiorPopulacao = Collections.max(estados.values());
+    System.out.println(maiorPopulacao);// Questão 7
+  
+    Iterator<Integer> iterator = estados.values().iterator();
+      Integer soma = 0;
+      while(iterator.hasNext()) soma += iterator.next();
+    System.out.println("Soma da população: " + soma); // Questão 8
+  
+    System.out.println("Media da popuação: " + soma/estados.size());
+  
+    Iterator<Integer> iterator2 = estados.values().iterator();
+    while(iterator2.hasNext()){
+      if(iterator2.next() <= 4000000) iterator2.remove();// Questão 9
+    }
+    System.out.println(estados);
+    estados.clear();// Questão 10
+    System.out.println(estados.isEmpty());// Questão 11
   }
   
 }

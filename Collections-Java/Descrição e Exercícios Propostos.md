@@ -154,7 +154,7 @@
 * ### Faça um programa que simule o lançamento de dados.
 ### Lance o dado 100 vezes e armazene. <br> Depois, mostre quantas vezes cada valor foi inserido.
 
-### **Para saber mais**
+### **[Para saber mais](https://github.com/cami-la/curso-dio-intro-collections/tree/master/src/br/com/dio/collection/map/paraSaberMais)**
 ### Exemplos de Ordenação:
 1. ### Key(Objeto) + value(Set Objeto);
 2. ### Key(Objeto) + value(Objeto);
